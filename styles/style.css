@@ -13,4 +13,127 @@ body {
   font-family: "Roboto", Arial;
   font-weight: 900;
   font-style: normal;
+
+  min-width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.bg-d {
+  color: #fff;
+  background-color: rgb(194, 139, 0);
+  /* padding: 2px 4px; */
+  border-radius: 4px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.outline-0:focus {
+  box-shadow: 0 0 0 4px rgba(0, 132, 255, 0.5);
+  outline: 0;
+}
+
+.outline-0:focus-within {
+  box-shadow: 0 0 0 4px rgba(0, 132, 255, 0.5);
+  outline: 0;
+}
+
+.outline-0:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.break-word {
+  word-wrap: break-word;
+}
+
+.text-black {
+  color: #000;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+
+@media (max-width: 500px) {
+  .fs-60 {
+    font-size: 40px;
+  }
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.absolute {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.translateY-80 {
+  transform: translateY(-120px);
+}
+
+.translateY-40 {
+  transform: translateY(-10px);
 }
