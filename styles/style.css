@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #111;
+  background: #fff;
   color: #f1f1f1;
 
   font-family: "Roboto", Arial;
@@ -41,7 +41,7 @@ body {
 .bg-d {
   color: #fff;
   background-color: rgb(194, 139, 0);
-  /* padding: 2px 4px; */
+  padding: 0px 16px;
   border-radius: 4px;
 }
 

@@ -8,7 +8,11 @@
 
 This is just simple project in HTML, CSS and JS, inspired by pinterest Home page hero section animation.
 
-## checkout more
+## Preview:
+
+![Pinterest hero Animation](./assets/design.gif)
+
+## Checkout
 
 [on CodePen](https://codepen.io/ali1129/)
 
